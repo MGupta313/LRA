@@ -57,19 +57,19 @@ After you upload both of them in their respective field in the top-left of the s
 ### Shiny App plots
 **BB Plot**
 This tab displays a bee swarm plot. This is very similar to a boxplot diagram. When your samples are divided into several groups, you may select any gene or peak (feature) and see what the read depth for each sample within each group looks like.
-<img src="https://github.com/MGupta313/LRA/Analysis/Images/bbplot.png" alt="Folders" width="200"/>
 
+<img src="https://github.com/MGupta313/LRA/blob/main/Analysis/Images/bbplot.png" alt="Folders" width="200"/>
 
 **Volcano Plot**
 This is a standard plot for bulk sequencing projects like this. It allows you to see the overall “effect size” between the two conditions you are comparing. To start, select a comparison to look at. The x-axis represents the fold change between the two conditions for each feature, and the y-axis represents the significance value of the difference test for each feature. A significant difference here is one where the absolute log2FC is greater than 1 and the adjusted p-value is less than 0.05.
 
-<img src="https://github.com/MGupta313/LRA/Analysis/Images/volcano.png" alt="Folders" width="200"/>
+<img src="https://github.com/MGupta313/LRA/blob/main/Analysis/Images/volcano.png" alt="Folders" width="200"/>
 
 
 **PCA Plot**
 This is a very common machine learning technique to explore multidimensional data. This scatterplot takes either all or a user selected set of features, and compresses all 10k+ genes/peaks into ~10 dimensions, with the dimensions being ordered by “importance” (percent variance). Looking at the first and second principal components is generally enough to see whether different sets of your data segregate or not, whether there might be an outlier to explore further, or whether your data appears to be composed of heterogenous subsets that you were unaware of.
 
-<img src="https://github.com/MGupta313/LRA/Analysis/Images/pca.png" alt="Folders" width="200"/>
+<img src="https://github.com/MGupta313/LRA/blob/main/Analysis/Images/pca.png" alt="Folders" width="200"/>
 
 What do the ellipses represent?
 It is computed using the car::dataEllipse() function. This function superimposes a normal distribution over the scatterplot. In this app, the ellipse drawn is a contour encompassing 90% of that normal distribution.
@@ -77,4 +77,4 @@ It is computed using the car::dataEllipse() function. This function superimposes
 **Heat Map**
 This plot takes all relevant features and all relevant samples and uses hierarchical clustering to visually represent apparent differences between sets of samples.
 
-<img src="https://github.com/MGupta313/LRA/Analysis/Images/heatmap.png" alt="Folders" width="200"/>
+<img src="https://github.com/MGupta313/LRA/blob/main/Analysis/Images/heatmap.png" alt="Folders" width="200"/>
