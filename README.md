@@ -37,20 +37,20 @@ The first file is the manifest file. This is usually named something like **RNAs
 
 Every manifest file must have:
 
-A group column to designate experimental groups
-A sample column to uniquely name each sample
-An include column, to denote samples that should be excluded from analysis
-A unique.reads column, as a measure of overall sequencing depth for the experiment
-Each column name must be unique and consist solely of alphanumerics, the period and the underscore
+A group column to designate experimental groups. 
+A sample column to uniquely name each sample. 
+An include column, to denote samples that should be excluded from analysis. 
+A unique.reads column, as a measure of overall sequencing depth for the experiment. 
+Each column name must be unique and consist solely of alphanumerics, the period and the underscore  
 
 The second file is a diff file. This is usually named something like **diff.glm.RNAseq.analysisName.txt**, where analysisName is a very short description of what comparisons were performed. It is also a tab delimited file that stores all the information relevant to running the differential tests. This includes:
 
-The normalized count for each gene or called peak for each sample ending in *.RPKM for RNAseq, or .RPPM for ATACseq
-A SYMBOL column for RNAseq projects that contains the the gene names
-If this is an ATACseq project, it must have a respective Gene.Name column AND a peak column
-A collection of sets of 5 columns describing each group comparison performed, each with a *.sig column
-A sigAny column that denotes whether a feature was significantly different in any comparison test
-After you upload both of them in their respective field in the top-left of the sidebar, you may click the load button and explore each tab and all of the options available to that tab to see what your data looks like.
+The normalized count for each gene or called peak for each sample ending in *.RPKM for RNAseq, or .RPPM for ATACseq. 
+A SYMBOL column for RNAseq projects that contains the the gene names. 
+If this is an ATACseq project, it must have a respective Gene.Name column AND a peak column. 
+A collection of sets of 5 columns describing each group comparison performed, each with a *.sig column. 
+A sigAny column that denotes whether a feature was significantly different in any comparison test. 
+After you upload both of them in their respective field in the top-left of the sidebar, you may click the load button and explore each tab and all of the options available to that tab to see what your data looks like.  
 
 ## Output description
 
