@@ -26,5 +26,5 @@ The knowledge gained from our studies will greatly enhance our understanding of 
 ## Types of analysis <a name="analysis"></a>
 This repository provides an insight into the bioinformatics framework and platform created for standardizing data collection, analysis, and storage to ensure compatibility and reproducibility across the program. The repository is divided into sections to capture the data warehouse, derived data analysis, and data exploration. Data landscape overview outlining the workflow and data warehousing structure. 
 
-<img src="https://github.com/MGupta313/LRA/blob/main/Analysis/Images/datatypes.png" alt="Folders" width="200"/>
+<img src="https://github.com/MGupta313/LRA/blob/main/Analysis/Images/datatypes.png" alt="Folders" width="800"/>
 
