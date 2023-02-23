@@ -2,7 +2,7 @@
 # B cells and Plasma Cells in Black SLE - Mechanisms of Disease Heterogeneity
 <p align="center">
 <img src="https://github.com/MGupta313/LRA/blob/main/Analysis/Images/LRA%20logo.png" alt="Folders" width="200"/>
-<img src="https://github.com/MGupta313/LRA/blob/main/Analysis/Images/Emupng.png" alt="Folders" width="50"/>
+<img src="https://github.com/MGupta313/LRA/blob/main/Analysis/Images/Picture1.png" alt="Folders" width="50"/>
 </p>
 
 # Table of contents
